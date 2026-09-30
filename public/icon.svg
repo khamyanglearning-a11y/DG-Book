@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bw-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#141414" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bw-bg)" />
+  <rect x="20" y="20" width="472" height="472" rx="96" fill="none" stroke="#ffffff" stroke-width="3" stroke-opacity="0.3" />
+  
+  <!-- Subtle geometric diamond lattice in white/gray -->
+  <g opacity="0.15" stroke="#ffffff" stroke-width="2" fill="none">
+    <path d="M256 60 L452 256 L256 452 L60 256 Z" />
+    <circle cx="256" cy="256" r="160" />
+    <circle cx="256" cy="256" r="190" stroke-dasharray="8 8" />
+  </g>
+
+  <!-- Central Emblem: Open manuscript book in pure crisp white -->
+  <g transform="translate(106, 110)">
+    <!-- Book wings -->
+    <path d="M150 200 C80 180 30 190 10 205 C10 130 60 120 150 140 Z" fill="#ffffff" opacity="0.9" />
+    <path d="M150 200 C220 180 270 190 290 205 C290 130 240 120 150 140 Z" fill="#ffffff" opacity="0.9" />
+    <path d="M150 200 L150 140" stroke="#000000" stroke-width="3" />
+    
+    <!-- Central sunburst circle -->
+    <circle cx="150" cy="80" r="42" fill="#ffffff" />
+    <!-- Tai letter Ta (တ) -->
+    <path d="M136 68 C136 60 142 54 150 54 C158 54 164 60 164 68 C164 74 158 80 150 86 C136 94 136 104 164 104" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- High contrast QR corner brackets -->
+  <g stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M80 130 L80 80 L130 80" />
+    <path d="M382 80 L432 80 L432 130" />
+    <path d="M80 382 L80 432 L130 432" />
+    <path d="M382 432 L432 432 L432 382" />
+  </g>
+
+  <!-- Audio sound waves symbol -->
+  <path d="M226 385 C240 375 272 375 286 385" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" />
+  <path d="M214 398 C238 384 274 384 298 398" stroke="#ffffff" stroke-width="4" opacity="0.75" stroke-linecap="round" fill="none" />
+</svg>

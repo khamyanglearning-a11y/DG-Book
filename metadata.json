@@ -1,0 +1,6 @@
+{
+  "name": "Tai Digital Dictionary",
+  "description": "A QR-based digital platform for learning Tai languages through books, meanings, summaries and audio.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
